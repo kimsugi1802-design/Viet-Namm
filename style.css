@@ -1,4 +1,4 @@
-/* Bước 3: Thẻ nội dung chung (ví dụ body hoặc container) */
+/* Bước 3: Thẻ nội dung chung */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    color: #333333; /* Đảm bảo tương phản tốt để pass WAVE */
+    color: #333333;
 }
 
 /* Bước 4: Thẻ tiêu đề (header) */
@@ -23,7 +23,7 @@ nav {
     padding: 10px;
 }
 
-/* Bước 8: Thẻ li (mục danh sách trong nav/menu) */
+/* Bước 8: Thẻ li trong nav */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -33,7 +33,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block; /* Hoặc flex item tùy cấu trúc */
+    display: inline-block;
     width: 120px; /* Bước 8: Chiều rộng */
     text-align: center;
 }
@@ -54,6 +54,10 @@ main {
     font-size: 1rem;
     padding: 30px;
     min-height: 400px;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 /* Bước 7: Thẻ chân trang (footer) */
@@ -69,6 +73,10 @@ footer {
 h1 {
     text-align: center;
     font-family: 'Georgia', serif;
+    color: #ffffff;
+}
+
+h2 {
     color: #2c3e50;
 }
 
